@@ -3,7 +3,7 @@ class box{
         var options={
             'restitution':1
         }
-        this.body=bodies.rectangle(x,y,width,height,options);
+        this.body=Bodies.rectangle(x,y,width,height,options);
 
         World.add(World,this.body);
     }
